@@ -33,7 +33,11 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition>
-          {children}
+          <section className="h-full">
+            <div className="h-full container mx-auto">
+              {children}
+            </div>
+          </section>
         </PageTransition>
       </body>
     </html>

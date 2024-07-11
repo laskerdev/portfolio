@@ -1,7 +1,7 @@
-import Link from "next/link"
-import Nav from "@/components/layouts/Nav"
-import { Button } from "@/components/ui/button"
-import NavMobile from "./NavMobile"
+import Link from "next/link";
+import Nav from "@/components/layouts/Nav";
+import { Button } from "@/components/ui/button";
+import NavMobile from "@/components/layouts/NavMobile";
 
 const Header = () => {
 	return (
