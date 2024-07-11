@@ -1,6 +1,7 @@
 import Link from "next/link"
-import Nav from "./nav"
-import { Button } from "../ui/button"
+import Nav from "@/components/layouts/Nav"
+import { Button } from "@/components/ui/button"
+import NavMobile from "./NavMobile"
 
 const Header = () => {
 	return (
@@ -16,16 +17,16 @@ const Header = () => {
 				<div className="hidden lg:flex items-center gap-8">
 					<Nav />
 					<Link href={"/about-me"}>
-						<Button>Hire me</Button>
+						<Button className="">Hire me</Button>
 					</Link>
 				</div>
 				{/* moblie: nav menu */}
 				<div className="lg:hidden">
-					Mobile
+					<NavMobile />
 				</div>
 			</div>
 		</header>
 	)
 }
 
-export default Header
+export default Header;

@@ -1,8 +1,15 @@
+"use client";
 
-const Body = () => {
+interface BodyProps {
+  children: any
+}
+
+const Body = (props: BodyProps) => {
+  const { children } = props;
+
   return (
     <></>
   )
 }
 
-export default Body
+export default Body;

@@ -3,13 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const menuLinks = [
-  { name: "home", path: "/" },
-  { name: "services", path: "/services" },
-  { name: "resume", path: "/resume" },
-  { name: "work", path: "/work" },
-  { name: "contact", path: "/contact" }
-]
+import { menuLinks } from "@/constants/Navigations";
 
 const Nav = () => {
   const pathname = usePathname();
@@ -32,4 +26,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;
