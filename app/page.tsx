@@ -1,3 +1,4 @@
+import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
@@ -8,7 +9,7 @@ const HomePage = () => {
       <div className="text-center lg:text-left order-2 lg:order-none">
         <span className="text-xl">Software Developer</span>
         <h1 className="h1 mb-6">
-          Hello, I&apos;m<br /><span className="text-accent cursor-pointer hover:border-b-2 hover:border-accent">Thien a.k.a 11PMdev</span>
+          Hello, I&apos;m<br /><span className="text-accent cursor-pointer hover:border-b-2 hover:border-accent">Ejin a.k.a Thien</span>
         </h1>
         <p className="max-w-[480px] mb-9 text-white/80">
           I excel at crafting elegant digital experiences and I am
@@ -25,7 +26,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="order-1 lg:order-none mb-8 lg:mb-0">
-
+        <Photo />
       </div>
     </div>
   )

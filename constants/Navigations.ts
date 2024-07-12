@@ -7,9 +7,9 @@ export const menuLinks = [
 ];
 
 export const socialLinks = [
-  { name: "github", path: "githib.com/11PMdev", isUse: true },
-  { name: "linkedin", path: "linkedin.com/11PMdev", isUse: true },
-  { name: "twitter", path: "twitter.com/11PMdev", isUse: true },
-  { name: "youtube", path: "youtube.com/@11PMdev", isUse: true },
-  { name: "facebook", path: "facebook.com/11PMdev", isUse: false }
+  { name: "github", path: "https://github.com/ejindev", isUse: true },
+  { name: "linkedin", path: "https://linkedin.com/ejindev", isUse: true },
+  { name: "twitter", path: "https://twitter.com/ejindev", isUse: true },
+  { name: "youtube", path: "https://youtube.com/@ejindev", isUse: true },
+  { name: "facebook", path: "https://facebook.com/ejindev", isUse: false }
 ];
