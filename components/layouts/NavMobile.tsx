@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
-import { menuLinks } from "@/constants/Navigations";
+import { menuLinks } from "@/constants/navigations";
 
 
 const NavMobile = () => {

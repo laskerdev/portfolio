@@ -1,7 +1,7 @@
 "use client";
 
 import CountUp from "react-countup";
-import { stats } from "@/constants/Stats";
+import { stats } from "@/constants/common";
 
 function Stats() {
   return (

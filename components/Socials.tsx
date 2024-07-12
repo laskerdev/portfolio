@@ -1,4 +1,4 @@
-import { socialLinks } from "@/constants/Navigations";
+import { socialLinks } from "@/constants/navigations";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter, FaYoutube, FaFacebook } from "react-icons/fa";
 
