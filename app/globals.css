@@ -6,6 +6,9 @@
   body {
     @apply font-primary bg-primary text-white leading-loose;
   }
+  .one1pm-logo {
+    @apply font-logo;
+  }
   .h1 {
     @apply text-[44px] xl:text-[66px] leading-[1.1] font-semibold;
   }

@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jetBrainsMono.variable}>
+      <body className={`${jetBrainsMono.variable} ${montserrat.variable}`}>
         <Header />
         <StairTransition />
         <PageTransition>

@@ -9,8 +9,8 @@ const Header = () => {
 			<div className="flex justify-between items-center container mx-auto">
 				{/* logo */}
 				<Link href={"/"}>
-					<h1 className="text-3xl font-semibold one1pm-logo">
-						11PM<span className="text-accent">.dev</span>
+					<h1 className="text-3xl font-medium one1pm-logo">
+						11PM<span className="text-2xl text-accent font-semibold">.dev</span>
 					</h1>
 				</Link>
 				{/* desktop: nav menu */}
