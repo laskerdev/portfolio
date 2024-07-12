@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "11PM.dev Portfolio",
+  title: "Ejin N. | 11Pm Portfolio",
   description: "Portfolio",
 };
 
@@ -33,11 +33,9 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition>
-          <section className="h-full">
-            <div className="h-full container mx-auto">
-              {children}
-            </div>
-          </section>
+          <main className="h-full container mx-auto">
+            {children}
+          </main>
         </PageTransition>
       </body>
     </html>

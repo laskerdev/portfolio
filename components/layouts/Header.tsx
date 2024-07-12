@@ -10,7 +10,7 @@ const Header = () => {
 				{/* logo */}
 				<Link href={"/"}>
 					<h1 className="text-3xl font-medium one1pm-logo">
-						11PM<span className="text-2xl text-accent font-semibold">.dev</span>
+						11Pm<span className="text-2xl text-accent font-semibold">.</span>
 					</h1>
 				</Link>
 				{/* desktop: nav menu */}
