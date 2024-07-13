@@ -116,7 +116,7 @@ const Resume = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 1.2, duration: 0.4, ease: "easeIn" }
+          transition: { delay: 1.4, duration: 0.4, ease: "easeIn" }
         }}
       >
         <Tabs defaultValue="experience" className="flex flex-col lg:flex-row gap-[60px]">

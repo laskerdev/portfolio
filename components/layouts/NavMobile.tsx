@@ -18,7 +18,7 @@ const NavMobile = () => {
       <SheetContent className="flex flex-col">
         <div className="my-20 text-center">
           <h1 className="text-2xl font-semibold one1pm-logo">
-            <span className="text-3xl text-accent font-medium">11PM.</span>dev
+            <span className="text-3xl text-accent font-medium">11Pm</span>.
           </h1>
         </div>
         <nav className="flex flex-col justify-center items-center gap-8">

@@ -3,7 +3,7 @@
 import CountUp from "react-countup";
 import { stats } from "@/constants/common";
 
-function Stats() {
+const Stats = () => {
   return (
     <section className="pt-4 pb-12 lg:pt-0 lg:pb-0">
       <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto lg:max-w-none">
