@@ -155,19 +155,19 @@ export const projects = [
     num: "01",
     category: "frontend",
     title: "Project 01",
-    desc: "",
+    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque sapiente animi molestias sequi in non odio illum quisquam.",
     stack: [{ name: "JavaScript" }, { name: "HTML 5" }, { name: "CSS 3" }],
-    image: "",
+    image: "/assets/work/thumb1.png",
     live: "",
     github: ""
   },
   {
     num: "02",
     category: "fullstack",
-    title: "Project 03",
-    desc: "",
+    title: "Project 02",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolores sapiente tempora reprehenderit labore et natus corrupti fugit!",
     stack: [{ name: "Next.JS" }, { name: "TailwindCss" }, { name: "Laravel" }],
-    image: "",
+    image: "/assets/work/thumb2.png",
     live: "",
     github: ""
   },
@@ -175,9 +175,9 @@ export const projects = [
     num: "03",
     category: "frontend",
     title: "Project 03",
-    desc: "",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, error. Repellat, excepturi quis et quisquam totam deserunt.",
     stack: [{ name: "JavaScript" }, { name: "HTML 5" }, { name: "CSS 3" }],
-    image: "",
+    image: "/assets/work/thumb3.png",
     live: "",
     github: ""
   }
