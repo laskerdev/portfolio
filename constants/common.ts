@@ -16,30 +16,15 @@ import {
   SiFigma
 } from "react-icons/si";
 
-export interface skillType {
-  icon: IconType,
-  name: string
-}
-
+// For Home Page
 export const stats = [
-  {
-    num: 7,
-    text: "Years of experience"
-  },
-  {
-    num: 10,
-    text: "Projects completed"
-  },
-  {
-    num: 5,
-    text: "Technologies mastered"
-  },
-  {
-    num: 523,
-    text: "Code commits"
-  }
+  { num: 7, text: "Years of experience" },
+  { num: 10, text: "Projects completed" },
+  { num: 5, text: "Technologies mastered" },
+  { num: 523, text: "Code commits" }
 ];
 
+// For Services Page
 export const services = [
   {
     num: "01",
@@ -66,6 +51,12 @@ export const services = [
     url: "#"
   }
 ];
+
+// For Resume Page
+export interface skillType {
+  icon: IconType,
+  name: string
+}
 
 export const resumeTabs = [
   { value: "experience", name: "Experience", order: 1 },
@@ -157,3 +148,37 @@ export const skills = {
     { icon: SiFigma, name: "Figma" }
   ]
 }
+
+// For Work Page
+export const projects = [
+  {
+    num: "01",
+    category: "frontend",
+    title: "Project 01",
+    desc: "",
+    stack: [{ name: "JavaScript" }, { name: "HTML 5" }, { name: "CSS 3" }],
+    image: "",
+    live: "",
+    github: ""
+  },
+  {
+    num: "02",
+    category: "fullstack",
+    title: "Project 03",
+    desc: "",
+    stack: [{ name: "Next.JS" }, { name: "TailwindCss" }, { name: "Laravel" }],
+    image: "",
+    live: "",
+    github: ""
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "Project 03",
+    desc: "",
+    stack: [{ name: "JavaScript" }, { name: "HTML 5" }, { name: "CSS 3" }],
+    image: "",
+    live: "",
+    github: ""
+  }
+];

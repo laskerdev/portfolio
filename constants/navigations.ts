@@ -1,3 +1,14 @@
+import {
+  SiGithub,
+  SiLinkedin,
+  SiX,
+  SiYoutube,
+  SiDevdotto,
+  SiFacebook,
+  SiFigma,
+  SiDailydotdev
+} from "react-icons/si";
+
 export const menuLinks = [
   { name: "home", path: "/" },
   { name: "services", path: "/services" },
@@ -7,9 +18,52 @@ export const menuLinks = [
 ];
 
 export const socialLinks = [
-  { name: "github", path: "https://github.com/ejindev", isUse: true },
-  { name: "linkedin", path: "https://linkedin.com/ejindev", isUse: true },
-  { name: "twitter", path: "https://twitter.com/ejindev", isUse: true },
-  { name: "youtube", path: "https://youtube.com/@ejindev", isUse: true },
-  { name: "facebook", path: "https://facebook.com/ejindev", isUse: false }
+  {
+    name: "github",
+    path: "https://github.com/ejindev",
+    icon: SiGithub,
+    isUse: true
+  },
+  {
+    name: "linkedin",
+    path: "https://linkedin.com/ejindev",
+    icon: SiLinkedin,
+    isUse: false
+  },
+  {
+    name: "daily.dev",
+    path: "https://app.daily.dev/ejin",
+    icon: SiDailydotdev,
+    isUse: true
+  },
+  {
+    name: "dev.to",
+    path: "https://dev.to/ejin",
+    icon: SiDevdotto,
+    isUse: true
+  },
+  {
+    name: "figma",
+    path: "https://figma.com/@ejindev",
+    icon: SiFigma,
+    isUse: true
+  },
+  {
+    name: "x",
+    path: "https://x.com/ejindev",
+    icon: SiX,
+    isUse: true
+  },
+  {
+    name: "youtube",
+    path: "https://youtube.com/@ejindev",
+    icon: SiYoutube,
+    isUse: false
+  },
+  {
+    name: "facebook",
+    path: "https://facebook.com/ejindev",
+    icon: SiFacebook,
+    isUse: true
+  }
 ];
