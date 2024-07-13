@@ -16,7 +16,7 @@ const Header = () => {
 				{/* desktop: nav menu */}
 				<div className="hidden lg:flex items-center gap-8">
 					<Nav />
-					<Link href={"/about-me"}>
+					<Link href={"/contact"}>
 						<Button className="">Hire me</Button>
 					</Link>
 				</div>

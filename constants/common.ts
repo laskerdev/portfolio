@@ -15,6 +15,7 @@ import {
   SiLinux,
   SiFigma
 } from "react-icons/si";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 // For Home Page
 export const stats = [
@@ -180,5 +181,24 @@ export const projects = [
     image: "/assets/work/thumb3.png",
     live: "",
     github: ""
+  }
+];
+
+// For Contact Page
+export const infoEjin = [
+  {
+    icon: FaPhoneAlt,
+    label: "Phone",
+    value: "(84) 899 222 323"
+  },
+  {
+    icon: FaEnvelope,
+    label: "Email",
+    value: "me@ejin.dev"
+  },
+  {
+    icon: FaMapMarkedAlt,
+    label: "Address",
+    value: "Thu Duc City, Ho Chi Minh City 630000"
   }
 ];
