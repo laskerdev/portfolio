@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, Montserrat } from "next/font/google";
+import { JetBrains_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import PageTransition from "@/components/transitions/PageTransition";
@@ -11,14 +11,14 @@ const jetBrainsMono = JetBrains_Mono({
   variable: "--font-jetBrainsMono"
 });
 
-const montserrat = Montserrat({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-montserrat"
+  variable: "--font-inter"
 });
 
 export const metadata: Metadata = {
-  title: "Ejin N. | 11Pm Portfolio",
+  title: "Ejin N.",
   description: "Portfolio",
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetBrainsMono.variable} ${montserrat.variable}`}>
+      <body className={`${jetBrainsMono.variable} ${inter.variable}`}>
         <Header />
         <StairTransition />
         <PageTransition>

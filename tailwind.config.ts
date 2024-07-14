@@ -22,7 +22,7 @@ const config = {
     },
     fontFamily: {
       primary: "var(--font-jetBrainsMono)",
-      logo: "var(--font-montserrat)"
+      logo: "var(--font-inter)"
     },
     extend: {
       colors: {
