@@ -20,7 +20,7 @@ export const menuLinks = [
 export const socialLinks = [
   {
     name: "github",
-    path: "https://github.com/ejindev",
+    path: "https://github.com/laskerdev",
     icon: SiGithub,
     isUse: true
   },
@@ -32,13 +32,13 @@ export const socialLinks = [
   },
   {
     name: "daily.dev",
-    path: "https://app.daily.dev/ejin",
+    path: "https://app.daily.dev/lasker",
     icon: SiDailydotdev,
     isUse: true
   },
   {
     name: "dev.to",
-    path: "https://dev.to/ejin",
+    path: "https://dev.to/lasker",
     icon: SiDevdotto,
     isUse: true
   },
@@ -62,7 +62,7 @@ export const socialLinks = [
   },
   {
     name: "facebook",
-    path: "https://facebook.com/ejindev",
+    path: "https://facebook.com/laskerdev",
     icon: SiFacebook,
     isUse: true
   }
