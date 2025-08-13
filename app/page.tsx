@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="text-center lg:text-left order-2 lg:order-none">
           <span className="text-xl">Software Developer</span>
           <h1 className="h1 mb-6">
-            Hi, I&apos;m<br /><span className="text-accent cursor-pointer hover:border-b-2 hover:border-accent">Ejin Nguyen</span>
+            Hi, I&apos;m<br /><span className="text-accent cursor-pointer hover:border-b-2 hover:border-accent">Eddy Nguyen</span>
           </h1>
           <p className="max-w-[498px] mb-9 text-white/80">
             I excel at crafting elegant digital experiences and I am

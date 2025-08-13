@@ -70,13 +70,13 @@ export const aboutEjin = {
   title: "About me",
   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dolorem alias quis enim laudantium unde, nemo accusantium beatae!",
   items: [
-    { label: "Name", value: "Ejin N." },
-    { label: "Phone", value: "(84) 899 222 323" },
+    { label: "Name", value: "Eddy N" },
+    { label: "Phone", value: "(84) 948 22 4346" },
     { label: "Experience", value: "7+ Years" },
     { label: "Nationality", value: "Vietnam" },
     { label: "Discord", value: "@ejindev" },
     { label: "Telegram", value: "@ejindev" },
-    { label: "Email", value: "me@ejin.dev" },
+    { label: "Email", value: "me@lasker.dev" },
     { label: "Freelance", value: "Available" },
     { label: "Languages", value: "English, Vietnamese" }
   ]
@@ -189,12 +189,12 @@ export const infoEjin = [
   {
     icon: FaPhoneAlt,
     label: "Phone",
-    value: "(84) 899 222 323"
+    value: "(84) 948 22 4346"
   },
   {
     icon: FaEnvelope,
     label: "Email",
-    value: "me@ejin.dev"
+    value: "me@lasker.dev"
   },
   {
     icon: FaMapMarkedAlt,
